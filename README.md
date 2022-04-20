@@ -1,1 +1,1 @@
-## react info app
+## React info app
