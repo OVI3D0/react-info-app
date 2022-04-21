@@ -1,9 +1,7 @@
-import '../styles/App.css';
 
 function Practice() {
     return (
         <>
-            <img src={process.env.PUBLIC_URL+"react-logo.jpg"} className="react-img" alt='react logo' />
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
