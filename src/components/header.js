@@ -4,19 +4,13 @@ function Header() {
     return (
 
         <>
-            <div className='con'>
-                <div className='row'>
-                    <div className='col-8 d-flex align-items-center'>
+            <nav className='con d-flex justify-content-between align-items-center shadow-lg'>
+                    <span className='d-flex align-items-center ps-5'>
                         <img src='/react-logo.jpg' />
                         <h3>ReactFacts</h3>
-                    </div>
-                    <div className='col-4 d-flex align-items-center'>
-                        <h4 className='proj'>React Course - Project 1</h4>
-                    </div>
-                </div>
-
-
-            </div>
+                    </span>
+                    <h4 className='proj pe-5'>React Course - Project 1</h4>
+            </nav>
         </>
 
     );
