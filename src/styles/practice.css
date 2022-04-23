@@ -1,15 +1,17 @@
 .bod {
     color: white;
     padding-left: 50px;
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    background-position: 150%;
 }
 
 li::marker {
     color: #61DAFB;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .bg-img {
-    height: 50vh;
     position: absolute;
     right: -40px;
 }
