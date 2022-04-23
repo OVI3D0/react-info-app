@@ -4,7 +4,7 @@ function Practice() {
     return (
         <>
             <div className="pt-5 vh-100 bod" style={{backgroundColor: "#33373E"}}>
-                <h1 className='pb-3'>Fun facts about React</h1>
+                <h1 className='pb-5 fw-bolder'>Fun facts about React</h1>
                 <ul>
                     <li>Was first released in 2013</li>
                     <li>Was originally created by Jordan Walke</li>

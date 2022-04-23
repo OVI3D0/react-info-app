@@ -2,3 +2,8 @@
     color: white;
     padding-left: 50px;
 }
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}

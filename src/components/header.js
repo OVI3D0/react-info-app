@@ -1,4 +1,5 @@
 import '../styles/header.css';
+import logo from '../images/react-logo.jpg';
 
 function Header() {
     return (
@@ -6,7 +7,7 @@ function Header() {
         <>
             <nav className='con d-flex justify-content-between align-items-center shadow-lg'>
                     <span className='d-flex align-items-center ps-5'>
-                        <img src='/react-logo.jpg' />
+                        <img src={logo} />
                         <h3>ReactFacts</h3>
                     </span>
                     <h4 className='proj pe-5'>React Course - Project 1</h4>
