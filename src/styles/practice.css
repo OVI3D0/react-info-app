@@ -7,3 +7,9 @@ li::marker {
     color: #61DAFB;
     font-size: 1.4rem;
 }
+
+.bg-img {
+    height: 50vh;
+    position: absolute;
+    right: -40px;
+}

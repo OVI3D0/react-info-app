@@ -1,9 +1,11 @@
 import '../styles/practice.css';
+import logo from '../logo.svg';
 
 function Practice() {
     return (
         <>
             <div className="pt-5 vh-100 bod" style={{backgroundColor: "#33373E"}}>
+                <img src={logo} className="bg-img" />
                 <h1 className='pb-5 fw-bolder'>Fun facts about React</h1>
                 <ul>
                     <li>Was first released in 2013</li>
